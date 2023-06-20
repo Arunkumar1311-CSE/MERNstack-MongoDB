@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "64917c954b958ee00feba3bb"
+  },
+  "name": "Swift",
+  "model": "dts",
+  "rented_user_count": 1,
+  "mileage": 18,
+  "transmission": "automatic",
+  "rent": 1300,
+  "fuel": "disel",
+  "image_url": "https:www.cardekho.com/Maruti/Maruti_Swift_2011-2014/pictures"
+},
+{
+  "_id": {
+    "$oid": "64917da94b958ee00feba3bc"
+  },
+  "name": "Swift",
+  "model": "dts",
+  "rented_user_count": 1,
+  "mileage": 18,
+  "transmission": "automatic",
+  "rent": 1300,
+  "fuel": "disel",
+  "image_url": "https:www.cardekho.com/Maruti/Maruti_Swift_2011-2014/pictures"
+},
+{
+  "_id": {
+    "$oid": "6491806d4b958ee00feba3bd"
+  },
+  "name": "Rolls-Royce",
+  "model": "ph-98",
+  "rented_user_count": 6,
+  "mileage": 24,
+  "transmission": "automatic",
+  "rent": 13000,
+  "fuel": "disel",
+  "image_url": "https://ownsilent.international/blogs/news/what-is-the-criteria-to-buy-a-rolls-royce-from-the-manufacturer"
+},
+{
+  "_id": {
+    "$oid": "6491806d4b958ee00feba3be"
+  },
+  "name": "Hyundai",
+  "model": "2017",
+  "rented_user_count": 4,
+  "mileage": 16,
+  "transmission": "manual",
+  "rent": 3300,
+  "fuel": "disel",
+  "image_url": "https://www.carshop.co.uk/latest-news/where-is-hyundai-made/"
+},
+{
+  "_id": {
+    "$oid": "649195679577154ea63cb947"
+  }
+},
+{
+  "_id": {
+    "$oid": "64919725211baed5691e82c1"
+  },
+  "name": "Swift",
+  "model": "dts",
+  "rented_user_count": 1,
+  "mileage": 18,
+  "transmission": "automatic",
+  "rent": 1300,
+  "fuel": "disel",
+  "image_url": "https:www.cardekho.com/Maruti/Maruti_Swift_2011-2014/pictures"
+}]
