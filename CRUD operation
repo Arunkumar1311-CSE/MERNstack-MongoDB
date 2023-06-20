@@ -1,0 +1,265 @@
+use car
+switched to db car
+use cardb
+switched to db cardb
+db.cardb.insertOne([{name:"Swift",model:"dts",rented_user_count:1,mileage:18,transmission:"automatic",rent:1300,fuel:"disel",image_url:"https:www.cardekho.com/Maruti/Maruti_Swift_2011-2014/pictures"}])
+{
+  acknowledged: true,
+  insertedId: ObjectId("64919a612030d4f8198c8fdc")
+}
+db.cardb.find()
+{
+  '0': {
+    name: 'Swift',
+    model: 'dts',
+    rented_user_count: 1,
+    mileage: 18,
+    transmission: 'automatic',
+    rent: 1300,
+    fuel: 'disel',
+    image_url: 'https:www.cardekho.com/Maruti/Maruti_Swift_2011-2014/pictures'
+  },
+  _id: ObjectId("64919a612030d4f8198c8fdc")
+}
+ww.cardekho.com/Hundai/2014/pictures"},{name:"Porsche",model:"d-32",rented_user_count:6,mileage:21transmission:"automatic",rent:5000,fuel:"disel",image_url:"https:www.cardekho.com/pictures"}])
+Error: clone(t={}){const r=t.loc||{};return e({loc:new Position("line"in r?r.line:this.loc.line,"column"in r?r.column:...<omitted>...)} could not be cloned.
+db.cardb.insertMany([{name:"hundai",model:"dt-201",rented_user_count:4,mileage:16,transmission:"automatic",rent:4000,fuel:"disel",image_url:"https:www.cardekho.com/Hundai/2014/pictures"},{name:"Porsche",model:"d-32",rented_user_count:6,mileage:21transmission:"automatic",rent:5000,fuel:"disel",image_url:"https:www.cardekho.com/pictures"}])
+Error: clone(t={}){const r=t.loc||{};return e({loc:new Position("line"in r?r.line:this.loc.line,"column"in r?r.column:...<omitted>...)} could not be cloned.
+db.cardb.insertMany([{name:"hundai",model:"dt-201",rented_user_count:4,mileage:16,transmission:"automatic",rent:4000,fuel:"disel",image_url:"https:www.cardekho.com/Hundai/2014/pictures"},{name:"Porsche",model:"d-32",rented_user_count:6,mileage:21,transmission:"automatic",rent:5000,fuel:"disel",image_url:"https:www.cardekho.com/pictures"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("64919f102030d4f8198c8fdd"),
+    '1': ObjectId("64919f102030d4f8198c8fde")
+  }
+}
+db.cardb.find()
+
+{
+  '0': {
+    name: 'Swift',
+    model: 'dts',
+    rented_user_count: 1,
+    mileage: 18,
+    transmission: 'automatic',
+    rent: 1300,
+    fuel: 'disel',
+    image_url: 'https:www.cardekho.com/Maruti/Maruti_Swift_2011-2014/pictures'
+  },
+  _id: ObjectId("64919a612030d4f8198c8fdc")
+}
+{
+  _id: ObjectId("64919f102030d4f8198c8fdd"),
+  name: 'hundai',
+  model: 'dt-201',
+  rented_user_count: 4,
+  mileage: 16,
+  transmission: 'automatic',
+  rent: 4000,
+  fuel: 'disel',
+  image_url: 'https:www.cardekho.com/Hundai/2014/pictures'
+}
+{
+  _id: ObjectId("64919f102030d4f8198c8fde"),
+  name: 'Porsche',
+  model: 'd-32',
+  rented_user_count: 6,
+  mileage: 21,
+  transmission: 'automatic',
+  rent: 5000,
+  fuel: 'disel',
+  image_url: 'https:www.cardekho.com/pictures'
+}
+db.cardb.insertMany([{name:"Bentley",model:"yu-201",rented_user_count:5,mileage:15,transmission:"manual",rent:3200,fuel:"gas and diseal",image_url:"https:www.cardekho.com/bentle/2014/pictures"},{name:"BMW",model:"QR-45",rented_user_count:3,mileage:11,transmission:"automatic",rent:5000,fuel:"petrol",image_url:"https:www.cardekho.com/pictures"}])
+
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("6491a1ec2030d4f8198c8fdf"),
+    '1': ObjectId("6491a1ec2030d4f8198c8fe0")
+  }
+}
+
+db.cardb.insertMany([{name:"Mercedes-Benz",model:"dfgy-201",rented_user_count:1,mileage:14,transmission:"manual",rent:5000,fuel:"gas",image_url:"https/mercedes-Bens/2014/pictures"},{name:"Toyota",model:"Glanza",rented_user_count:7,mileage:20,transmission:"automatic",rent:4500,fuel:"petrol",image_url:"https://www.cardekho.com/toyota/glanza"}]);
+
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("6491a3be2030d4f8198c8fe1"),
+    '1': ObjectId("6491a3be2030d4f8198c8fe2")
+  }
+}
+db.cardb.insertMany([{name:"Ford",model:"ford-glyder",rented_user_count:3,mileage:24,transmission:"Automatic",rent:4000,fuel:"disel",image_url:"https/phpdi583/pictures"},{name:"Nissan",model:"2023 Nissan Ariya",rented_user_count:4,mileage:21,transmission:"Manual",rent:6200,fuel:"disel",image_url:"https://yufui8959.com"}]);
+
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("6491a4cb2030d4f8198c8fe3"),
+    '1': ObjectId("6491a4cb2030d4f8198c8fe4")
+  }
+}
+db.cardb.find()
+{
+  '0': {
+    name: 'Swift',
+    model: 'dts',
+    rented_user_count: 1,
+    mileage: 18,
+    transmission: 'automatic',
+    rent: 1300,
+    fuel: 'disel',
+    image_url: 'https:www.cardekho.com/Maruti/Maruti_Swift_2011-2014/pictures'
+  },
+  _id: ObjectId("64919a612030d4f8198c8fdc")
+}
+{
+  _id: ObjectId("64919f102030d4f8198c8fdd"),
+  name: 'hundai',
+  model: 'dt-201',
+  rented_user_count: 4,
+  mileage: 16,
+  transmission: 'automatic',
+  rent: 4000,
+  fuel: 'disel',
+  image_url: 'https:www.cardekho.com/Hundai/2014/pictures'
+}
+{
+  _id: ObjectId("64919f102030d4f8198c8fde"),
+  name: 'Porsche',
+  model: 'd-32',
+  rented_user_count: 6,
+  mileage: 21,
+  transmission: 'automatic',
+  rent: 5000,
+  fuel: 'disel',
+  image_url: 'https:www.cardekho.com/pictures'
+}
+{
+  _id: ObjectId("6491a1ec2030d4f8198c8fdf"),
+  name: 'Bentley',
+  model: 'yu-201',
+  rented_user_count: 5,
+  mileage: 15,
+  transmission: 'manual',
+  rent: 3200,
+  fuel: 'gas and diseal',
+  image_url: 'https:www.cardekho.com/bentle/2014/pictures'
+}
+
+{
+  _id: ObjectId("6491a1ec2030d4f8198c8fe0"),
+  name: 'BMW',
+  model: 'QR-45',
+  rented_user_count: 3,
+  mileage: 11,
+  transmission: 'automatic',
+  rent: 5000,
+  fuel: 'petrol',
+  image_url: 'https:www.cardekho.com/pictures'
+}
+{
+  _id: ObjectId("6491a3be2030d4f8198c8fe1"),
+  name: 'Mercedes-Benz',
+  model: 'dfgy-201',
+  rented_user_count: 1,
+  mileage: 14,
+  transmission: 'manual',
+  rent: 5000,
+  fuel: 'gas',
+  image_url: 'https/mercedes-Bens/2014/pictures'
+}
+
+{
+  _id: ObjectId("6491a3be2030d4f8198c8fe2"),
+  name: 'Toyota',
+  model: 'Glanza',
+  rented_user_count: 7,
+  mileage: 20,
+  transmission: 'automatic',
+  rent: 4500,
+  fuel: 'petrol',
+  image_url: 'https://www.cardekho.com/toyota/glanza'
+}
+
+{
+  _id: ObjectId("6491a4cb2030d4f8198c8fe3"),
+  name: 'Ford',
+  model: 'ford-glyder',
+  rented_user_count: 3,
+  mileage: 24,
+  transmission: 'Automatic',
+  rent: 4000,
+  fuel: 'disel',
+  image_url: 'https/phpdi583/pictures'
+}
+
+{
+  _id: ObjectId("6491a4cb2030d4f8198c8fe4"),
+  name: 'Nissan',
+  model: '2023 Nissan Ariya',
+  rented_user_count: 4,
+  mileage: 21,
+  transmission: 'Manual',
+  rent: 6200,
+  fuel: 'disel',
+  image_url: 'https://yufui8959.com'
+}
+db.cardb.updateOne({name:"BMW"},{$set:{"fuel":"gas"}})
+
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+db.cardb.find()
+
+{
+  _id: ObjectId("6491a1ec2030d4f8198c8fe0"),
+  name: 'BMW',
+  model: 'QR-45',
+  rented_user_count: 3,
+  mileage: 11,
+  transmission: 'automatic',
+  rent: 5000,
+  fuel: 'gas',
+  image_url: 'https:www.cardekho.com/pictures'
+}
+
+db.cardb.updateMany({transmission:"manual"},{$set:{"mileage":"20"}},{upsert : true});
+
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 2,
+  modifiedCount: 2,
+  upsertedCount: 0
+}
+db.cardb.find()
+
+{
+  _id: ObjectId("6491a1ec2030d4f8198c8fdf"),
+  name: 'Bentley',
+  model: 'yu-201',
+  rented_user_count: 5,
+  mileage: '20',
+  transmission: 'manual',
+  rent: 3200,
+  fuel: 'gas and diseal',
+  image_url: 'https:www.cardekho.com/bentle/2014/pictures'
+}
+
+{
+  _id: ObjectId("6491a3be2030d4f8198c8fe1"),
+  name: 'Mercedes-Benz',
+  model: 'dfgy-201',
+  rented_user_count: 1,
+  mileage: '20',
+  transmission: 'manual',
+  rent: 5000,
+  fuel: 'gas',
+  image_url: 'https/mercedes-Bens/2014/pictures'
+}
+
+
